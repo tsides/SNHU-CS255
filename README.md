@@ -1,2 +1,7 @@
-# SNHU-Stuff
-A repository of work done at Southern New Hampshire University for BS in Comp Sci
+# SNHU-CS-255 System Design
+
+This repository contains design work done on the DriverPass system. The client DriverPass was interested in building a system whereby people that wished to obtain a drivers license in there state could study and practice for that exam. The system will offer a student the ability to take practice tests, watch training videos, and sign-up for driving instruction sessions in a vehcile with an instructor. The system uses role based security and defines three roles for users of this system. The Admin role designed for individuals that are responsible for system maintenance and reporting, the instructor role for people responsible for in-vehicle driver training, and the Student.
+
+The design of the system is flexible, scalable, extensible, and meets industry standard security quidelines. The design lacks a data mapping section that maps data elements from the Entity Relationship Diagram to the Class diagram. The design should also include a set of user stories developed from the use cases noted in the requirements document.
+
+The user's need as expressed in the client interview have been captured. When designing a system it is good practice to use a tracability matrix to map design elements to the user requirement as expressed. In addition, the design includes several key elements that allow for future expansion of the system and maintainability that was lacking in the user requirements as expressed in the interview.
